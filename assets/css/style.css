@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+:root {
+    --eColor: #2d4262;
+    --lColor: #203a62db;
+    --fColor: #ffc107;
+    --sColor: #adb5bd;
+    --tColor: #fff;
+    --dColor: #000;
+    --aColor: #241435;
+    --jColor: #000000f1;
+    --xColor: #09162a;
+    --yColor: #000000d1;
+    --vColor: #202327;
+}
+
+.wrap {
+    background: url("../images/logo/intro_2.jpeg") center/cover no-repeat;
+    height: 960px;
+    position: relative;
+}
+
+.wrap::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--lColor);
+    width: 100%;
+    height: 100%;
+}
+
+.navs {
+    width: 100%;
+    position: fixed;
+    z-index: 111111111111111111111;
+}
+
+.logo {
+    background-color: var(--eColor);
+}
+
+.logo .head {
+    padding: 15px 0px;
+}
+
+.logo span {
+    margin-left: 5px;
+    color: var(--sColor);
+}
+
+.border {
+    border-right: 1px solid #fff;
+}
+
+.logo span ion-icon {
+    padding-right: 5px;
+    color: var(--fColor);
+}
+
+i {
+    padding-right: 5px;
+    color: var(--fColor);
+}
+
+.badge p {
+    color: var(--dColor);
+    background-color: var(--fColor);
+    display: inline-block;
+    padding: 5px;
+    margin: 10px 0px;
+    border: 1px solid;
+}
+
+ul {
+    z-index: 444;
+}
+
+.logoo {
+    background-color: var(--aColor);
+}
+
+
+.drive {
+    position: absolute;
+    top: 34%;
+    left: 10.5%;
+    z-index: 111;
+    width: 40%;
+}
+
+.drive h6 {
+    color: var(--fColor);
+}
+
+h1 {
+    font-size: 3.3rem !important;
+    padding: 10px 0px;
+    color: var(--tColor);
+}
+
+.p {
+    color: var(--sColor);
+    font-size: 14px;
+}
+
+.color {
+    color: var(--fColor);
+}
+
+
+.wrapper {
+    background: url("../images/who/pattern.png") center/cover no-repeat;
+    height: 860px;
+    position: relative;
+}
+
+.wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--jColor);
+    width: 100%;
+    height: 100%;
+}
+
+.actives {
+    background-color: var(--fColor);
+    position: absolute;
+    top: -6%;
+}
+
+.N-active {
+    background-color: var(--eColor);
+    position: absolute;
+    top: -4%;
+}
+
+.who {
+    color: var(--fColor);
+}
+
+.heads {
+    color: var(--tColor);
+}
+
+.progress {
+    position: relative;
+    width: 90%;
+    height: 10px;
+    background-color: var(--tColor);
+    margin: 10px 0px;
+}
+
+.progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background-color: var(--fColor);
+    transition: width 0.3 linear;
+    -webkit-transition: width 0.3 linear;
+    -moz-transition: width 0.3 linear;
+    -ms-transition: width 0.3 linear;
+    -o-transition: width 0.3 linear;
+}
+
+.crew {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    background-color: var(--lColor);
+    padding: 10px;
+}
+
+.img {
+    object-fit: cover;
+    object-position: center;
+    height: 500px;
+    width: 50%;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+}
+
+.form-bg {
+    width: 45%;
+    height: 500px;
+    background-color: var(--xColor);
+    left: 42%;
+}
+
+label {
+    color: var(--tColor);
+}
+
+.button {
+    height: 45px;
+    width: 90%;
+    color: var(--eColor);
+    background-color: var(--fColor);
+    text-align: center;
+
+}
+
+.service {
+    background-color: var(--eColor);
+}
+
+.mb-10 {
+    margin-bottom: 10rem !important;
+}
+
+.cardpos {
+    background-color: var(--xColor);
+    color: var(--tColor);
+    width: 90%;
+    height: 150px;
+    position: absolute;
+    top: 84%;
+    padding: 10px;
+}
+
+.img-logo {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -8%;
+    right: 12px;
+    z-index: 11;
+    background-color: var(--fColor);
+    padding: 10px;
+}
+
+.call {
+    background: url("../images/call/call_us.jpeg") center/cover no-repeat;
+    height: 200px;
+    position: relative;
+}
+
+.call::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--yColor);
+}
+
+.bg-section {
+    background-color: var(--xColor);
+}
+
+.choose {
+    background: url("../images/bg-section/choose/Cartrack2.png") center/cover no-repeat;
+    height: 700px;
+    position: relative;
+}
+
+
+.main-image {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-top: 170px;
+    height: 640px;
+}
+
+.ch-position {
+    top: 18%;
+    left: -40px;
+}
+
+
+.box {
+    margin: 15px 0px;
+    width: 100%;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: var(--lColor);
+}
+
+.icon img {
+    background-color: var(--fColor);
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.line {
+    position: absolute;
+    top: 87%;
+    height: 50px;
+    border-left: 1px dotted var(--fColor);
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+
+.box1 {
+    background-color: var(--eColor);
+}
+
+
+.box2 {
+    background-color: var(--lColor);
+}
+
+
+.box2 img {
+    z-index: 11111111;
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    top: -40px;
+    object-position: center;
+}
+
+.questions {
+    background: url("../images/bg-section/question/pattern.png") center/cover no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+
+.sale {
+    background: url("../images/sale/intro.jpeg") center/cover no-repeat;
+    height: 350px;
+    position: relative;
+}
+
+.sale::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--yColor);
+}
+
+.box5 {
+    width: 37%;
+    height: 300px;
+    border: 1px dotted var(--tColor);
+}
+
+.group {
+    background: url("../images/group/Cartrack2.png") center/cover no-repeat;
+    height: 800px;
+    position: relative;
+    background-color: var(--jColor);
+}
+
+
+.box6 {
+    background-color: var(--eColor);
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+
+.map::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--yColor);
+}
+
+.blog {
+    background-color: var(--vColor);
+}
+
+.travice {
+    background-color: var(--eColor);
+}
+
+.bord {
+    border-right: 1px solid var(--tColor);
+    height: 20px;
+}
